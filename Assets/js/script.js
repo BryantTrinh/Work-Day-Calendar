@@ -4,11 +4,39 @@ $('.saveBtn').on('click', function () {
   
   var time = $(this).parent().attr('id');
   var value = $(this).siblings('.description').val();
- 
-localStorage.setItem(time, value);
-// show notification that it was saved to local storage
+
+localStorage.setItem(time, value)
 $('.notification').addClass('show');
+
+
+  var myTimeout = setTimeout(hide, 2500);
+
+  function hide() {
+    $('.notification').removeClass('show');
+  }
+
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// show notification that it was saved to local storage
+
+
 
 
 // get current hour
