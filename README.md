@@ -7,7 +7,7 @@ This application allows users to access a dynamically updated browser calendar w
 
 ## Installation
 
-Run the index.html file
+Run the index.html file in your browser.
 
 The following video demonstrates the application functionality:
 
