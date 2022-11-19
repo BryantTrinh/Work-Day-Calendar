@@ -13,7 +13,7 @@ The following video demonstrates the application functionality:
 
 ## Usage
 
-![A user clicks on slots on the color-coded calendar and edits the events.](calendardemo.mp4)
+![A user clicks on slots on the color-coded calendar and edits the events.](work.gif)
 
 # License
 
