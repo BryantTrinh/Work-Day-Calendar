@@ -59,10 +59,15 @@ textarea {
 }
 
 .notification {
-  display: none;
+  /* display: none; */
+  text-align: center;
+  font-size: 50px;
+  opacity: 0%;
+  transition: opacity 2.5s ease-in-out;
 }
 
 .show {
-  display: block;
+  /* display: block; */
+  opacity: 1;
 }
 
