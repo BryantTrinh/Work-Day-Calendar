@@ -65,3 +65,5 @@ setInterval(presentHour, 15000);
   $('#hour-19 .description').val(localStorage.getItem('hour-19'));
   $('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'));
 });
+
+//end
